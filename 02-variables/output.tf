@@ -1,3 +1,3 @@
 variable "CountryName" {
-  value = var.CountryName
+  Nation = var.CountryName
 }

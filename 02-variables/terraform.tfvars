@@ -1,1 +1,1 @@
-CountryName = USA
+Nation = USA
