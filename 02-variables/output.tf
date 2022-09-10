@@ -1,3 +1,7 @@
 output "vartest" {
-  default = "hellow"
+  value = var.vartest
+}
+
+variable "vartest" {
+  default ="Chanti"
 }
