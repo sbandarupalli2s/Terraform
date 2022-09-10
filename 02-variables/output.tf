@@ -1,7 +1,14 @@
+variable "vartest" {
+  default ="Chanti"
+}
+
 output "vartest" {
   value = var.vartest
 }
 
-variable "vartest" {
-  default ="Chanti"
+variable "test1" {}
+
+output "test1" {
+  value = var.test1
 }
+

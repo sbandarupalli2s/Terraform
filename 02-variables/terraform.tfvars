@@ -1,1 +1,1 @@
-Nation = USA
+test1 = "The variable is declare in terraform.tfvars file"
