@@ -1,3 +1,3 @@
-variable "CountryName" {
-  Nation = var.CountryName
+output "vartest" {
+  default = "hellow"
 }
