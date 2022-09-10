@@ -1,0 +1,1 @@
+test2 = "This is declared in chantivar.tfvars"
