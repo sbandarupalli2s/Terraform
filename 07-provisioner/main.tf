@@ -21,10 +21,7 @@ resource "null_resource" "cli" {
     }
 
     inline = [
-      "echo Hello Galaxy"
-      "mkdir chanti"
-      "cd chanti"
-      "echo ram > text.txt"
+      "echo Hello Galaxy\n", "echo hello Chanti"
     ]
 
   }
