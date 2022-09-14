@@ -1,9 +1,9 @@
-data "aws_instance" "checking" {
+data "aws_instances" "checking" {
   instance_state_names = ["running", "stopped"]
 }
 
-output "instances" {
-  value = data.aws_instance.checking
+output "inst" {
+  value = data.aws_instances.checking
 }
 
 provider "aws" {
