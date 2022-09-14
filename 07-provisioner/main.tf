@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
-  ami                    = "ami-07ef4d849950da0b3"
-  instance_type          = "t3.micro"
-  vpc_security_group_ids = ["sg-02afc752c16b2fa2e"]
+  ami                    = "ami-0490430f92a24ee32"
+  instance_type          = "t2.micro"
+  vpc_security_group_ids = ["sg-05ab115ab91269836"]
 }
 
 provider "aws" {
