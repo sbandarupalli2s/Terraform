@@ -4,7 +4,7 @@ data "aws_instances" "checking" {
 
 output "inst" {
 //  value = data.aws_instances.checking
-  value = data.aws_instances.checking.id
+  value = data.aws_instances.checking.public_ips
 }
 
 provider "aws" {
