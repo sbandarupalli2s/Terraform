@@ -4,6 +4,10 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = ["sg-02afc752c16b2fa2e"]
 }
 
+provider "aws" {
+  region = "us-east-1"
+}
+
 resource "null_resource" "cli" {
   triggers = {
     abc = timestamp()
