@@ -3,7 +3,8 @@ data "aws_instances" "checking" {
 }
 
 output "inst" {
-  value = data.aws_instances.checking
+//  value = data.aws_instances.checking
+  value = data.aws_instances.checking.id
 }
 
 provider "aws" {
