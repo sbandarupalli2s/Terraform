@@ -1,5 +1,5 @@
-resource "aws_security_group" "all" {
-  name = "all"
+resource "aws_security_group" "web" {
+  name = "web"
   description = "open to all"
   vpc_id = "vpc-00d8562e94bdc1820"
 
