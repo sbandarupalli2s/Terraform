@@ -21,7 +21,7 @@ resource "null_resource" "cli" {
     }
 
     inline = [
-      "echo Hello Galaxy\n", "echo hello Chanti"
+      "echo Hello Galaxy\n", "echo hello Chanti\n", "cd ~", "mkdir MYFOLDER"
     ]
 
   }
